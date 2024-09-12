@@ -1,0 +1,70 @@
+#f1 {
+    display: flex;
+    flex-direction: column; 
+    align-items:start;
+    justify-content: center;
+    gap: 10px;
+    background-color:floralwhite;
+    border:5px black solid;
+    padding: 20px ;
+    width:500px;
+    #head{
+        display: flex;
+        flex-direction: column; 
+        align-items:center;
+        justify-content: center;
+        gap: 10px;   
+        padding:10px 100px; 
+    }
+    #l1{
+        display: flex;
+        flex-direction:row;
+        align-items: center;
+        justify-content: center;
+    }
+    #input{
+        display: flex;
+        flex-direction:row;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    #rad{
+        display: flex;
+        flex-direction:row;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    #check{
+        display: flex;
+        flex-direction:column;
+        align-items: start;
+        justify-content: center;
+        gap: 10px;
+        #checkb{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        #c1{
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        }
+    }
+    #com{
+        height:50px;
+        width:400px;
+    }
+    #sign{
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: center;
+        /* gap: 10px; */
+        padding:10px 150px;
+    }
